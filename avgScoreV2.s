@@ -197,7 +197,9 @@ jr $ra
 calcSum:
     move $v0, $zero          # initialize sum to 0
     move $t0, $zero          # index i = 0
-    blt $a0, $s0, sumStart
+    bgt $a1, $s0, error    
+    bge $a1, $zero, sumStart
+error:
     jr $ra
 sumStart:
     bgt $t0, $a1, sumEnd     
