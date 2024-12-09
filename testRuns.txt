@@ -1,0 +1,81 @@
+TEST 1:
+Enter the number of assignments (between 1 and 25): 5
+Enter score: 5
+Enter score: 5
+Enter score: 5
+Enter score: 5
+Enter score: 5
+Original scores: 5 5 5 5 5 
+Sorted scores (in descending order): 5 5 5 5 5 
+Enter the number of (lowest) scores to drop: 0
+Average (rounded down) with dropped scores removed: 5
+-- program is finished running --
+
+Test 2:
+Enter the number of assignments (between 1 and 25): 10
+Enter score: 88
+Enter score: 87
+Enter score: 96
+Enter score: 54
+Enter score: 83
+Enter score: 54
+Enter score: 92
+Enter score: 53
+Enter score: 85
+Enter score: 94
+Original scores: 88 87 96 54 83 54 92 53 85 94 
+Sorted scores (in descending order): 96 94 92 88 87 85 83 54 54 53 
+Enter the number of (lowest) scores to drop: 11
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
+
+Test 3:
+Enter the number of assignments (between 1 and 25): 7
+Enter score: 86
+Enter score: 84
+Enter score: 83
+Enter score: 85
+Enter score: 89
+Enter score: 88
+Enter score: 83
+Original scores: 86 84 83 85 89 88 83 
+Sorted scores (in descending order): 89 88 86 85 84 83 83 
+Enter the number of (lowest) scores to drop: -5
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
+
+Test 4:
+Enter the number of assignments (between 1 and 25): 10
+Enter score: -84
+Enter score: 65
+Enter score: -82
+Enter score: 74
+Enter score: -42
+Enter score: -10
+Enter score: 84
+Enter score: 93
+Enter score: -78
+Enter score: 84
+Original scores: -84 65 -82 74 -42 -10 84 93 -78 84 
+Sorted scores (in descending order): 93 84 84 74 65 -10 -42 -78 -82 -84 
+Enter the number of (lowest) scores to drop: 1
+Average (rounded down) with dropped scores removed: 20
+-- program is finished running --
+
+Test 5:
+Enter the number of assignments (between 1 and 25): 10
+Enter score: 1
+Enter score: -1
+Enter score: 1
+Enter score: -1
+Enter score: 1
+Enter score: -1
+Enter score: 1
+Enter score: -1
+Enter score: 1
+Enter score: -1
+Original scores: 1 -1 1 -1 1 -1 1 -1 1 -1 
+Sorted scores (in descending order): 1 1 1 1 1 -1 -1 -1 -1 -1 
+Enter the number of (lowest) scores to drop: 0
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
